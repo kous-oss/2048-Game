@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100vw;
+}
+
+.grid-cell {
+  border: 1px solid black;
+  display: flex;
+  height: 25vh;
+  width: 100vw;
+}
+
+.grid-cell div {
+  height: 25vh;
+  width: 25vw;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
